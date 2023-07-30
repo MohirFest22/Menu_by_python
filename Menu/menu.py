@@ -14,8 +14,6 @@ def savefile():
 Menyu = Menu()
 tk.config(menu=Menyu)
 
-
-
 fayl = Menu(Menyu,tearoff=0)
 fayl.add_cascade(label="Open file",command=openfile)
 fayl.add_cascade(label="New file",command=newfile)
