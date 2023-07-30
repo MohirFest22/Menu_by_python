@@ -5,8 +5,6 @@ tk = Tk()
 tk.title("Menu")
 tk.geometry("800x900")
 
-
-
 def openfile():
 	faylname = askopenfilename()
 def newfile():
