@@ -26,7 +26,6 @@ edit.add_cascade(label="Cut")
 edit.add_cascade(label="Copy")
 edit.add_cascade(label="Past")
 
-
 Menyu.add_cascade(label="File",menu=fayl)
 Menyu.add_cascade(label="Edit",menu=edit)
 
